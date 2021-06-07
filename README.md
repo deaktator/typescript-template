@@ -74,9 +74,10 @@ npm install -D webpack                      \
 * `npm run build`: Use webpack to build the code and output to `./dist`.
 * `npm run build:watch`: Use webpack to continuously watch the `./src`
     directory and build and place results in `./dist`.
+* `npm test`: run tests.
+* `npm run clean`: clean the `./dist` and `./staged` directories.
 * `npm start`: Start the webpack development server listen for file changes
     in `./src`.
-* `npm test`: run tests.
 
 **NOTE**: Any of the above commands could have been preceded by
 `NODE_ENV=development ` to make run the build targets in *development mode*.
