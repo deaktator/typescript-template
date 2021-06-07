@@ -4,6 +4,7 @@
   "description": "Typescript template with webpack.",
   "main": "src/index.ts",
   "scripts": {
+    "clean": "rm -rf ./dist/*.js ./dist/*.js.map ./staged",
     "build": "webpack",
     "build:watch": "webpack --watch",
     "test": "npx tsc && ./node_modules/.bin/jasmine",
