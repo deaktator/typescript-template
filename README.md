@@ -44,22 +44,22 @@ rm -rf ./node_modules package-lock.json
 ### Install NPM dependencies
 
 The project makes use of:
-* [webpack](https://webpack.js.org) to bundles code and assets
-* [terser](https://terser.org) to minify transpiled code
 * [TypeScript](https://www.typescriptlang.org) as the coding language
 * [ts-loader](https://github.com/TypeStrong/ts-loader) to allow webpack to
   [transpile](https://en.wikipedia.org/wiki/Source-to-source_compiler)
   [TypeScript](https://www.typescriptlang.org) to
   [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+* [webpack](https://webpack.js.org) to bundles code and assets
+* [terser](https://terser.org) to minify transpiled code
 * [jasmine](https://jasmine.github.io) for unit tests
 
 ```bash
-npm install -D webpack                      \
+npm install -D typescript                   \
+               ts-loader                    \
+               webpack                      \
                webpack-cli                  \
                webpack-dev-server           \
                terser-webpack-plugin        \
-               typescript                   \
-               ts-loader                    \
                                             \
                jasmine @types/jasmine       \
                jasmine-ts-console-reporter  \
