@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Typescript template</title>
+  </head>
+  <body>
+
+    <!-- *******************   Load the library   ******************* -->
+    <!--
+        NOTE: the file name, "library-file-name.js", is set in the
+        module.exports.output.filename property in the webpack.config.js file.
+    -->
+    <script src="library-file-name.js"></script>
+
+
+    <!-- *******************   Use the library   ******************** -->
+    <!--
+        NOTE: the library name, "libraryName", is set in the
+        module.exports.output.library property in the webpack.config.js file.
+    -->
+    <!-- Example calls of a public API function in the library.  -->
+    <script>
+      console.log("Call via libraryName global: " + libraryName.flr(1.5));
+      console.log("Call via window.libraryName: " + window.libraryName.flr(2.5));
+    </script>
+
+  </body>
+</html>

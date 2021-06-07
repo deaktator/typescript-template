@@ -1,0 +1,11 @@
+/staged
+/node_modules
+/dist/**.js
+/dist/**.js.map
+package-lock.json
+.DS_Store
+*.log
+.idea
+.vscode
+.cache
+.eslintcache
